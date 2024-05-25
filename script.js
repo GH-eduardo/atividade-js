@@ -2,6 +2,8 @@ function criarPagina() {
     window.title = 'Página do Pokémon Squirtle'
 
     // Header
+    let header = document.querySelector('header')
+    header.id = 'header'
     const h1 = document.createElement('h1')
     h1.innerText = 'Squirtle'
     document.querySelector('header').appendChild(h1)
